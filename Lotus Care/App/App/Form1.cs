@@ -62,5 +62,16 @@ namespace App
         {
             Application.Exit();
         }
+
+        //Mouse hover effect for Register label
+        private void label4_MouseEnter(object sender, EventArgs e)
+        {
+            label1.Cursor = Cursors.Hand;
+        }
+
+        private void label4_MouseLeave(object sender, EventArgs e)
+        {
+            label1.Cursor = Cursors.Default;
+        }
     }
 }

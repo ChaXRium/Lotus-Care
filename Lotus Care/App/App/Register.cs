@@ -15,6 +15,9 @@ namespace App
         public Register()
         {
             InitializeComponent();
+
+            // Enable DPI scaling for this form
+            this.AutoScaleMode = AutoScaleMode.Dpi;
         }
 
         private void Register_FormClosed(object sender, FormClosedEventArgs e)
